@@ -19,7 +19,7 @@ function OrderCart(props) {
           </ul>
         ))}
       </div>
-      <h2> Total: {getTotal()}</h2>
+      <h2> Total: £{getTotal()}</h2>
       <button onClick={props.submitOrder} className="submit-button">
         Submit
       </button>
