@@ -1,4 +1,4 @@
-> OpenTable Menu
+# OpenTable Menu
 
 
 ## React Web App
@@ -24,7 +24,10 @@ $ npm start
 
 
 ### Implementation.
-I loaded the json data into MongoDB and added extra fields to the data. see below:
+
+I created a [React](https://reactjs.org/) web app and a [NodeJs](https://nodejs.org/en/) server to provide a REST API.
+
+I loaded the json data into [MongoDB](https://www.mongodb.com/) and added extra fields to the data. see below:
 
 ```sh
 {
@@ -38,10 +41,13 @@ I loaded the json data into MongoDB and added extra fields to the data. see belo
     "quantity": 9
 }
 ```
-The extra fields are `quantity` and `group`. `quantity` to keep track of the inentory for the test case when there is one cheesecake left. `group` is to separate the course types `1=starter 2=mains 3=deserts`. 
+The extra fields are `quantity` and `group`. `quantity` to keep track of the inentory for the test case when there is one cheesecake left. `group` is to separate the course types `1=starter 2=mains 3=deserts`. For testing the `quantity ` of the `cheesecake` is set to 0.  I will email you the login details to mLab where the `mongoDb` is hosted.
 
-Tested the app against the 4 rules: 
-Displays error messages for 3 of the rules and the cheesecake rule i i
+I used [React Redux](https://github.com/reduxjs/redux) for state management
+
+
+
+
 
 
 ## License
