@@ -45,12 +45,6 @@ The extra fields are `quantity` and `group`. `quantity` to keep track of the ine
 
 I used [React Redux](https://github.com/reduxjs/redux) for state management.
 
-The submit order has not functionality implemented it just clears the state to create a new order.
+The submit order button has no functionality it just clears the state to create a new order.
 
 
-
-
-
-## License
-
-Licensed under the MIT License.
