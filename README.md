@@ -24,7 +24,7 @@ $ npm start
 
 
 ### Implementation.
-I loaded the json data into MongoDB and added extra fields to the data.
+I loaded the json data into MongoDB and added extra fields to the data. see below:
 
 ```sh
 {
@@ -38,6 +38,7 @@ I loaded the json data into MongoDB and added extra fields to the data.
     "quantity": 9
 }
 ```
+The extra fields are `quantity` and `group`. `quantity` to keep track of the inentory for the test case when there is one cheesecake left. `group` is to separate the course types `1=starter 2=mains 3=deserts`. 
 
 Tested the app against the 4 rules: 
 Displays error messages for 3 of the rules and the cheesecake rule i i
